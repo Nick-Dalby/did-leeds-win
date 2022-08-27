@@ -1,0 +1,26 @@
+body {
+  background-color: WhiteSmoke;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+body.won {
+  background-color: LemonChiffon;
+}
+
+body.won h1 {
+  font-size: 5rem;
+}
+
+body.lost {
+  background-color: Gainsboro;
+}
+
+body.lost h1 {
+  font-size: 1rem;
+}

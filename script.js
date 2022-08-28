@@ -1,3 +1,4 @@
+const button = document.querySelector('button')
 const h1Tag = document.querySelector('h1')
 const body = document.querySelector('body')
 
@@ -36,4 +37,10 @@ const refreshResult = async () => {
   }
 }
 
-refreshResult()
+button.addEventListener('click', () => {
+  body.removeChild(button)
+  body.appendChild(document.createElement('h1'))
+  h1Tag.textContent = 'loading...'
+  refreshResult()
+})
+

@@ -20,10 +20,10 @@ const displayResult = (result) => {
     (winner === 'AWAY_TEAM' && awayTeam === 341)
   ) {
     h1Tag.textContent = 'Yes! 🥳'
-    body.setAttribute('class', 'won')
+    body.className = 'won'
   } else {
     h1Tag.textContent = 'No. 😭'
-    body.setAttribute('class', 'lost')
+    body.className = 'lost'
   }
 }
 

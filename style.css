@@ -19,6 +19,10 @@ body.won h1 {
   font-size: 5rem;
 }
 
+body.draw h1 {
+  font-size: 5rem;
+}
+
 body.lost {
   background-color: lightslategrey;
 }

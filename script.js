@@ -21,6 +21,9 @@ const displayResult = (result) => {
   ) {
     h1Tag.textContent = 'Yes! 🥳'
     body.className = 'won'
+  } else if (winner === 'DRAW') {
+    h1Tag.textContent = `No. But they didn't lose 🙃`
+    body.className = 'draw'
   } else {
     h1Tag.textContent = 'No. 😭'
     body.className = 'lost'

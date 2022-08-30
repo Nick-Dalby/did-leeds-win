@@ -20,7 +20,7 @@ body.won h1 {
 }
 
 body.draw h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 body.lost {
@@ -28,7 +28,7 @@ body.lost {
 }
 
 body.lost h1 {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 
